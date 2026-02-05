@@ -8,13 +8,15 @@ import LocationPage from '@/components/LocationPage'
 import FloorPlansPage from '@/components/FloorPlansPage'
 import GalleryPage from '@/components/GalleryPage'
 import VisitFormPage from '@/components/VisitFormPage'
+import AboutWithFeaturesPage from '@/components/AboutWithFeaturesPage'
 
 const page = () => {
   return (
     <div>
       <MahindraHero/>
-      <AboutSection/>
-      <FeaturesPage/>
+      {/* <AboutSection/>
+      <FeaturesPage/> */}
+      <AboutWithFeaturesPage/>
       <PricingPage/>
       <AmenitiesPage/>
       <FloorPlansPage/>
