@@ -5,6 +5,9 @@ import PricingPage from '@/components/PricingPage'
 import AmenitiesPage from '@/components/AmenitiesPage'
 import SpecificationsPage from '@/components/SpecificationsPage'
 import LocationPage from '@/components/LocationPage'
+import FloorPlansPage from '@/components/FloorPlansPage'
+import GalleryPage from '@/components/GalleryPage'
+import VisitFormPage from '@/components/VisitFormPage'
 
 const page = () => {
   return (
@@ -14,8 +17,11 @@ const page = () => {
       <FeaturesPage/>
       <PricingPage/>
       <AmenitiesPage/>
+      <FloorPlansPage/>
+      <GalleryPage/>
       <SpecificationsPage/>
       <LocationPage/>
+      <VisitFormPage/>
     </div>
   )
 }
