@@ -54,7 +54,7 @@ export default function PricingPage() {
               ₹ 2.18cr <span className="text-xs sm:text-sm font-normal italic">Onwards</span>
             </p>
 
-            <button className="mt-3 sm:mt-4 border border-gray-400 px-6 sm:px-8 py-1.5 sm:py-2 text-sm sm:text-base rounded-full hover:bg-gray-100 transition">
+            <button className="mt-3 sm:mt-4 border border-gray-400 px-6 sm:px-8 py-1.5 sm:py-2 text-sm sm:text-base rounded-full text-gray-900 bg-white hover:bg-gray-600 hover:text-white transition-colors duration-300">
               Get Quote
             </button>
 
@@ -85,7 +85,7 @@ export default function PricingPage() {
               ₹ 2.18cr <span className="text-xs sm:text-sm font-normal italic">Onwards</span>
             </p>
 
-            <button className="mt-3 sm:mt-4 border border-gray-400 px-6 sm:px-8 py-1.5 sm:py-2 text-sm sm:text-base rounded-full hover:bg-gray-100 transition">
+            <button className="mt-3 sm:mt-4 border border-gray-400 px-6 sm:px-8 py-1.5 sm:py-2 text-sm sm:text-base rounded-full text-gray-900 bg-white hover:bg-gray-600 hover:text-white transition-colors duration-300">
               Get Quote
             </button>
 
@@ -104,7 +104,7 @@ export default function PricingPage() {
               ₹ 2.88cr <span className="text-xs sm:text-sm font-normal italic">Onwards</span>
             </p>
 
-            <button className="mt-3 sm:mt-4 border border-gray-400 px-6 sm:px-8 py-1.5 sm:py-2 text-sm sm:text-base rounded-full hover:bg-gray-100 transition">
+            <button className="mt-3 sm:mt-4 border border-gray-400 px-6 sm:px-8 py-1.5 sm:py-2 text-sm sm:text-base rounded-full text-gray-900 bg-white hover:bg-gray-600 hover:text-white transition-colors duration-300">
               Get Quote
             </button>
 

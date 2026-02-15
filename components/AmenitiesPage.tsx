@@ -62,8 +62,11 @@ export default function AmenitiesPage() {
               <Image
                 src="/divider.png"
                 alt="divider"
-                fill
+                 width={1000}
+               height={30}
+                // fill
                 className="object-contain"
+            
               />
             </div>
           </div>

@@ -65,7 +65,8 @@ export default function SpecificationsPage() {
               <Image
                 src="/divider.png"
                 alt="divider"
-                fill
+               width={1000}
+               height={30}
                 className="object-contain"
               />
             </div>

@@ -60,7 +60,8 @@ export default function FloorPlansPage() {
               <Image
                 src="/divider.png"
                 alt="divider"
-                fill
+                width={1000}
+               height={30}
                 className="object-contain"
               />
             </div>
@@ -113,10 +114,10 @@ export default function FloorPlansPage() {
               )}
 
 
-              {/* BUTTON */}
+              {/* BUTTON - Updated hover effect */}
               {plan.button && (
                 <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 z-10">
-                  <button className="px-6 sm:px-8 py-1.5 sm:py-2 border border-gray-500 rounded-full text-xs sm:text-sm text-gray-800 bg-white hover:bg-gray-100 transition">
+                  <button className="px-6 sm:px-8 py-1.5 sm:py-2 border border-gray-400 rounded-full text-xs sm:text-sm text-gray-900 bg-white hover:bg-gray-600 hover:text-white transition-colors duration-300 shadow-md">
                     View Plan
                   </button>
                 </div>

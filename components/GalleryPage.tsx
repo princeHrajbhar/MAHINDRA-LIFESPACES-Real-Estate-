@@ -46,7 +46,8 @@ export default function GalleryPage() {
             <Image 
               src="/divider.png" 
               alt="divider" 
-              fill
+             width={1000}
+               height={30}
               className="object-contain"
             />
           </div>
